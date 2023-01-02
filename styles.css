@@ -754,13 +754,13 @@ Products Page
   background: transparent;
   border-color: transparent;
   letter-spacing: var(--spacing);
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-7);
   cursor: pointer;
   transition: var(--transition);
   right: 0;
 }
 .company-btn:hover {
-  color: var(--clr-grey-3);
+  color: var(--clr-primary-7);
 }
 .price-filter {
   background: var(--clr-grey-5) !important;
