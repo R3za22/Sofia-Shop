@@ -223,6 +223,7 @@ Navbar
   width: 90vw;
   max-width: var(--max-width);
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
@@ -247,6 +248,7 @@ Navbar
   background: var(--clr-primary-3);
 }
 .toggle-container {
+  display: none ;
   position: relative;
   margin-top: 0.75rem;
 }
@@ -365,18 +367,36 @@ Hero
     font-size: 1.5rem;
     margin: 1rem 0;
   }
+ 
 }
 
 @media screen and (min-width: 992px) {
   .hero h1 {
+
     font-size: 5.25rem;
     letter-spacing: 5px;
+    
   }
   .hero h3 {
     font-size: 2.75rem;
     margin: 1.5rem 0;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .hero-container {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+  .hero-btn{
+    font-size: 1.5rem;
+    position: relative;
+    top: 3rem;
+  }
+}
+
 
 /*
 =============== 
