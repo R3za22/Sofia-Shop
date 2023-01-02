@@ -732,6 +732,7 @@ Products Page
   
 }
 
+
 .search-input {
   font-family: IRANSans;
   padding: 0.5rem;
@@ -830,17 +831,18 @@ Products Page
 
 /*
 =============== 
-Single Product Page
+Single Produpct Page
 ===============
 */
 .page-hero {
-  min-height: 17vh;
+  min-height: 12vh;
   display: grid;
   place-items: center;
   background-color: #282828;
   color: var(--clr-grey-5);
 }
 .page-hero-title {
+  margin-top: 13px;
   font-weight: 500;
   color: white;
 }

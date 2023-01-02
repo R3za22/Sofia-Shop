@@ -9,9 +9,9 @@ const setupPrice = (store) => {
   let maxPrice = store.map((product) => product.price);
   maxPrice = Math.max(...maxPrice);
   maxPrice = Math.ceil(maxPrice );
-  priceInput.value = maxPrice;
   priceInput.max = maxPrice;
   priceInput.min = 0;
+  priceInput.value = maxPrice;
   priceValue.textContent = `تومان ${maxPrice/1000},000`;
 
   priceInput.addEventListener('input', function () {
