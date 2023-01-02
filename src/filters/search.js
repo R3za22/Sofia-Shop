@@ -17,7 +17,7 @@ const setupSearch = (store) => {
       if (newStore.length < 1) {
         const products = getElement('.products-container');
         products.innerHTML = `<h3 class="filter-error">
-       sorry, no products matched your search
+       !!!‌ نتیجه‌ای یافت نشد
        </h3>`;
       }
     } else {

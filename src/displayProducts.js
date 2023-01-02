@@ -13,9 +13,9 @@ const display = (products, element, filters) => {
               <a href="product.html?id=${id}" class="product-icon">
                 <i class="fas fa-search"></i>
               </a>
-              <button class="product-cart-btn product-icon" data-id="${id}">
+              <!-- <button class="product-cart-btn product-icon" data-id="${id}">
                 <i class="fas fa-shopping-cart"></i>
-              </button>
+              </button> -->
             </div>
           </div>
           <footer>

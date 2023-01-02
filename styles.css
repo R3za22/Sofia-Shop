@@ -648,7 +648,7 @@ product
 }
 .product-price {
   margin-bottom: 0;
-  color: var(--clr-grey-3);
+  color: var(--clr-primary-5);
   font-weight: 700;
 }
 
@@ -822,6 +822,10 @@ Products Page
   .company-btn{
     text-align: center;
   }
+  .filter-error {
+    position: relative;
+    top: 0rem;
+    }
 }
 
 /*
