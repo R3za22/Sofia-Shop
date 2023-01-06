@@ -857,7 +857,7 @@ Single Produpct Page
 .single-product-img {
   height: 25rem;
   border-radius: var(--radius);
-  object-fit: cover;
+  object-fit:contain;
 }
 .single-product-company {
   font-size: 1.2rem;
@@ -867,7 +867,7 @@ Single Produpct Page
   margin-bottom: 1.25rem;
 }
 .single-product-price {
-  color: var(--clr-grey-3);
+  color: var(--clr-primary-5);
   font-size: 1.25rem;
   font-weight: 500;
 }
@@ -882,13 +882,26 @@ Single Produpct Page
 }
 
 .single-product-desc {
-  max-width: 25em;
+  max-width: -25em;
   line-height: 1.8;
-  text-align: right;
+  text-align: right ;
+  
 }
+
+.single-product-info {
+
+  width: 90%;
+  margin: 2rem auto;
+ }
+
+
 @media screen and (min-width: 992px) {
   .single-product-center {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .single-product-info {
+   margin-top: 0;
   }
 }
 
