@@ -421,8 +421,8 @@ Sidebar
   z-index: 100;
 }
 .sidebar {
-  width: 80vw;
-  height: 80vh;
+  width: 70vw;
+  height: auto;
   max-width: var(--fixed-width);
   background: var(--clr-white);
   border-radius: var(--radius);
@@ -438,11 +438,14 @@ Sidebar
   font-size: 3rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-grey-5);
+  color: var(--clr-red-light);
   position: absolute;
   top: 1rem;
   right: 1rem;
   cursor: pointer;
+}
+.sidebar-close :hover{
+  color: var(--clr-red-dark);
 }
 .sidebar-link {
   display:flex;
@@ -456,6 +459,11 @@ Sidebar
 }
 .sidebar-link i {
   color: var(--clr-grey-5);
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.sidebar-link :hover {
+  color: var(--clr-primary-5);
   margin-bottom: 1rem;
   font-size: 3rem;
 }
@@ -710,14 +718,19 @@ About Page
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
+
 .info-eitaa-logo-img {
   width: 70px ;
   height: 70px ;
-  filter: invert(32%) sepia(41%) saturate(2085%) hue-rotate(303deg) brightness(90%) contrast(93%);
+
   
 }
 
+.info-eitaa-logo :hover{
+  
+}
 
 @media screen and (min-width: 992px) {
   .about-text {
