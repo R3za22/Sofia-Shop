@@ -699,7 +699,7 @@ About Page
 */
 .about-text {
   text-align: center;
-  font-size: larger;
+  font-size:15px;
   line-height: 2;
   max-width: 80%;
   margin: 0 auto;
