@@ -698,8 +698,10 @@ About Page
 ===============
 */
 .about-text {
+  text-align: center;
+  font-size: larger;
   line-height: 2;
-  max-width: 45em;
+  max-width: 80%;
   margin: 0 auto;
   margin-top: 2rem;
 }
@@ -715,6 +717,16 @@ About Page
   filter: invert(32%) sepia(41%) saturate(2085%) hue-rotate(303deg) brightness(90%) contrast(93%);
   
 }
+
+
+@media screen and (min-width: 992px) {
+  .about-text {
+    font-size:medium;
+    max-width: 45em;
+  }
+  
+}
+
 
 /*
 =============== 
