@@ -718,19 +718,16 @@ About Page
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .info-eitaa-logo-img {
   width: 70px ;
   height: 70px ;
-
+  
+  filter: invert(32%) sepia(41%) saturate(2085%) hue-rotate(303deg) brightness(90%) contrast(93%);
   
 }
 
-.info-eitaa-logo :hover{
-  
-}
 
 @media screen and (min-width: 992px) {
   .about-text {
